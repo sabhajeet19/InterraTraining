@@ -547,3 +547,44 @@ org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connect
 
 !ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2022-12-25 14:54:30.046
 !MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.eclipse.egit.core 4 0 2022-12-25 17:10:30.866
+!MESSAGE An exception occurred during push on URI https://github.com/sabhajeet19/InterraTraining.git: Nothing to push.
+!STACK 0
+org.eclipse.jgit.errors.TransportException: Nothing to push.
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1334)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:191)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.egit.ui 4 0 2022-12-25 17:10:30.883
+!MESSAGE Can't connect to any repository: https://github.com/sabhajeet19/InterraTraining.git (Nothing to push.)
+
+!ENTRY org.eclipse.egit.core 4 0 2022-12-25 17:14:07.551
+!MESSAGE An exception occurred during push on URI https://github.com/sabhajeet19/InterraTraining.git: https://github.com/sabhajeet19/InterraTraining.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/sabhajeet19/InterraTraining.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:531)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:438)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:160)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1346)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:191)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:211)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.egit.ui 4 0 2022-12-25 17:16:30.162
+!MESSAGE sabhajet19@https://github.com/sabhajeet19/InterraTraining.git:https://github.com/sabhajeet19/InterraTraining.git: not found.
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: sabhajet19@https://github.com/sabhajeet19/InterraTraining.git:https://github.com/sabhajeet19/InterraTraining.git: not found.
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:222)
+	at org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:161)
+	at org.eclipse.egit.core.op.ListRemoteOperation.run(ListRemoteOperation.java:116)
+	at org.eclipse.egit.ui.internal.clone.SourceBranchPage$8.run(SourceBranchPage.java:337)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: org.eclipse.jgit.errors.NoRemoteRepositoryException: sabhajet19@https://github.com/sabhajeet19/InterraTraining.git:https://github.com/sabhajeet19/InterraTraining.git: not found.
+	at org.eclipse.jgit.transport.TransportLocal$1.open(TransportLocal.java:147)
+	at org.eclipse.jgit.transport.TransportBundleFile$1.open(TransportBundleFile.java:117)
+	at org.eclipse.jgit.transport.Transport.open(Transport.java:584)
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:189)
+	... 4 more
