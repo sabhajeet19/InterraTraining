@@ -8,6 +8,7 @@ public class FirstPrograme {
 		int a = 25;
 		int b = 35;
 		System.out.println(a*b);
+		System.out.println(a+b);
 		
 
 	}
