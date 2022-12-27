@@ -9,7 +9,7 @@ public class FirstPrograme {
 		int b = 35;
 		System.out.println(a*b);
 		System.out.println(a+b);
-		
+
 
 	}
 
