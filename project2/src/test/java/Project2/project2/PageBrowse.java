@@ -37,7 +37,7 @@ public class PageBrowse {
 		searchBar.sendKeys(Keys.ENTER);
 		WebElement discount = driver.findElement(By.linkText("60% Off or more"));
 		discount.click();
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		List<WebElement> ls = driver.findElements(By.xpath("//img[@class='s-image']"));
 		System.out.println("Number of products that have more than 60% discount =  "+ls.size());
 		
