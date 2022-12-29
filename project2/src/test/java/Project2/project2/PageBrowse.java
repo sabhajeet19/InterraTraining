@@ -10,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
@@ -34,6 +35,8 @@ public class PageBrowse {
 		System.out.println("Hi how are you");
 		WebElement searchBar = driver.findElement(By.id("twotabsearchtextbox"));
 		searchBar.sendKeys("Allen Solly");
+		wait.until(ExpectedConditions.visibilityOf(searchBar));
+		wait.until(ExpectedConditions.textToBePresentInElementValue(searchBar,"Allen Solly"));
 		searchBar.sendKeys(Keys.ENTER);
 		WebElement discount = driver.findElement(By.linkText("60% Off or more"));
 		discount.click();
