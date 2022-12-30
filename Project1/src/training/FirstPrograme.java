@@ -1,14 +1,24 @@
 package training;
 
+import java.awt.Window;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
 public class FirstPrograme {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hi all how are you.I am good");
-		int a = 25;
-		int b = 35;
-		System.out.println(a*b);
-		System.out.println(a+b);
+		System.setProperty("webdriver.chrome.driver" , "../Project1/chromedriver.exe");
+	       //ChromeDriver driver = new ChromeDriver();
+		
+		  
+		WebDriver driver = new ChromeDriver();
+		String url = "https://the-internet.herokuapp.com/";
+		driver.manage().window().maximize();
+		driver.get(url);
+		
 
 
 	}
