@@ -13,7 +13,7 @@ public class MouseHover {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		WebDriverManager.firefoxdriver().setup();
-	
+
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
@@ -22,11 +22,11 @@ public class MouseHover {
 		WebElement hover = driver.findElement(By.xpath("//a[text()='Hovers']"));
 		hover.click();
 		WebElement image = driver.findElement(By.xpath("(//img[@alt='User Avatar'])[2]"));
-		
+
 		Actions action = new Actions(driver);
 		action.moveToElement(image).build().perform();
-		
-		
+
+
 
 	}
 

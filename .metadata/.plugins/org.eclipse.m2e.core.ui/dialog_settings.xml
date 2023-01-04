@@ -2,10 +2,12 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.org.trainig"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="maven"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -22,6 +24,14 @@
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
 		<item value="All Catalogs" key="catalog"/>
@@ -36,6 +46,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\USER1\project2"/>
+			<item value="D:\USER1\MavenTraing"/>
 			<item value="D:\USER1\Project1"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -49,13 +61,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="Project2.project2"/>
 		</list>
 		<list key="groupId">
-			<item value="Project2"/>
 		</list>
 		<list key="artifactId">
-			<item value="project2"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
