@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class Class2 {
@@ -19,14 +20,20 @@ public class Class2 {
 	public void test1() {
 	System.out.println("This is test1");
 	}
+	@Parameters("url")
 	@Test(priority=2)
-	public void test2() {
+	public void test2(String url) {
 	System.out.println("This is test2");
+	System.out.println("This is url: "+url);
 	}
 	@Test(priority=1)
 	public void test3() {
 	System.out.println("This is test3");
 	}
+	@Test(dependsOnMethods="test3")
+	public void test4() {
+		System.out.println("This is test4");
+		}
 	@AfterMethod
 	public void afterMethod() {
 	System.out.println("This is afterMethod");

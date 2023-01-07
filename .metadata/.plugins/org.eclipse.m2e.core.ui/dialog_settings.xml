@@ -2,12 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.org.trainig"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="maven"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -46,6 +44,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\USER1\training"/>
 			<item value="D:\USER1\project2"/>
 			<item value="D:\USER1\MavenTraing"/>
 			<item value="D:\USER1\Project1"/>
@@ -61,10 +60,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.org.testng.testng"/>
 		</list>
 		<list key="groupId">
+			<item value="com.org.testng"/>
 		</list>
 		<list key="artifactId">
+			<item value="testng"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

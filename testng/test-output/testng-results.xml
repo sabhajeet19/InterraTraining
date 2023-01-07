@@ -1,135 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
+  <suite name="Default suite" duration-ms="37" started-at="2023-01-06T16:27:00 IST" finished-at="2023-01-06T16:27:00 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
+    <test name="Default test" duration-ms="37" started-at="2023-01-06T16:27:00 IST" finished-at="2023-01-06T16:27:00 IST">
       <class name="pkg1.Class2">
-        <test-method status="PASS" signature="beforeSuit()[pri:0, instance:pkg1.Class2@544a2ea6]" name="beforeSuit" is-config="true" duration-ms="0" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
+        <test-method status="PASS" signature="beforeSuit()[pri:0, instance:pkg1.Class2@401e7803]" name="beforeSuit" is-config="true" duration-ms="4" started-at="2023-01-06T16:27:00 IST" finished-at="2023-01-06T16:27:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuit -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:pkg1.Class2@544a2ea6]" name="beforeTest" is-config="true" duration-ms="0" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:pkg1.Class2@401e7803]" name="beforeTest" is-config="true" duration-ms="0" started-at="2023-01-06T16:27:00 IST" finished-at="2023-01-06T16:27:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:pkg1.Class2@544a2ea6]" name="beforeClass" is-config="true" duration-ms="0" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:pkg1.Class2@401e7803]" name="beforeClass" is-config="true" duration-ms="0" started-at="2023-01-06T16:27:00 IST" finished-at="2023-01-06T16:27:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pkg1.Class2@544a2ea6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pkg1.Class2@401e7803]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2023-01-06T16:27:00 IST" finished-at="2023-01-06T16:27:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test1()[pri:-3, instance:pkg1.Class2@544a2ea6]" name="test1" duration-ms="4" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
+        <test-method status="PASS" signature="test1()[pri:-3, instance:pkg1.Class2@401e7803]" name="test1" duration-ms="4" started-at="2023-01-06T16:27:00 IST" finished-at="2023-01-06T16:27:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:pkg1.Class2@544a2ea6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:pkg1.Class2@401e7803]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-01-06T16:27:00 IST" finished-at="2023-01-06T16:27:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pkg1.Class2@544a2ea6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pkg1.Class2@401e7803]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2023-01-06T16:27:00 IST" finished-at="2023-01-06T16:27:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test3()[pri:1, instance:pkg1.Class2@544a2ea6]" name="test3" duration-ms="0" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
+        <test-method status="PASS" signature="test3()[pri:1, instance:pkg1.Class2@401e7803]" name="test3" duration-ms="0" started-at="2023-01-06T16:27:00 IST" finished-at="2023-01-06T16:27:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:pkg1.Class2@544a2ea6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:pkg1.Class2@401e7803]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-01-06T16:27:00 IST" finished-at="2023-01-06T16:27:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pkg1.Class2@544a2ea6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pkg1.Class2@401e7803]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2023-01-06T16:27:00 IST" finished-at="2023-01-06T16:27:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test2()[pri:2, instance:pkg1.Class2@544a2ea6]" name="test2" duration-ms="0" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
+        <test-method status="PASS" signature="test4()[pri:0, instance:pkg1.Class2@401e7803]" name="test4" duration-ms="1" started-at="2023-01-06T16:27:00 IST" depends-on-methods="pkg1.Class2.test3" finished-at="2023-01-06T16:27:00 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:pkg1.Class2@544a2ea6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:pkg1.Class2@401e7803]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-01-06T16:27:00 IST" finished-at="2023-01-06T16:27:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:pkg1.Class2@544a2ea6]" name="afterClass" is-config="true" duration-ms="1" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
+        <test-method status="FAIL" signature="test2(java.lang.String)[pri:2, instance:pkg1.Class2@401e7803]" name="test2" duration-ms="0" started-at="2023-01-06T16:27:00 IST" finished-at="2023-01-06T16:27:00 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'url' is required by @Test on method test2 but has not been marked @Optional or defined
+in C:\Users\SabhajeetV\AppData\Local\Temp\testng-eclipse--1895481237\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'url' is required by @Test on method test2 but has not been marked @Optional or defined
+in C:\Users\SabhajeetV\AppData\Local\Temp\testng-eclipse--1895481237\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:pkg1.Class2@544a2ea6]" name="afterTest" is-config="true" duration-ms="0" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:pkg1.Class2@401e7803]" name="afterTest" is-config="true" duration-ms="0" started-at="2023-01-06T16:27:00 IST" finished-at="2023-01-06T16:27:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="AfterSuit()[pri:0, instance:pkg1.Class2@544a2ea6]" name="AfterSuit" is-config="true" duration-ms="0" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:pkg1.Class2@401e7803]" name="afterClass" is-config="true" duration-ms="0" started-at="2023-01-06T16:27:00 IST" finished-at="2023-01-06T16:27:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="AfterSuit()[pri:0, instance:pkg1.Class2@401e7803]" name="AfterSuit" is-config="true" duration-ms="0" started-at="2023-01-06T16:27:00 IST" finished-at="2023-01-06T16:27:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterSuit -->
       </class> <!-- pkg1.Class2 -->
-      <class name="pkg1.Class1">
-        <test-method status="PASS" signature="beforeSuit()[pri:0, instance:pkg1.Class1@704d6e83]" name="beforeSuit" is-config="true" duration-ms="6" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuit -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:pkg1.Class1@704d6e83]" name="beforeTest" is-config="true" duration-ms="0" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:pkg1.Class1@704d6e83]" name="beforeClass" is-config="true" duration-ms="0" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:pkg1.Class1@704d6e83]" name="test1" duration-ms="0" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pkg1.Class1@704d6e83]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pkg1.Class1@704d6e83]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:pkg1.Class1@704d6e83]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:pkg1.Class1@704d6e83]" name="test2" duration-ms="0" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:pkg1.Class1@704d6e83]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:pkg1.Class1@704d6e83]" name="afterMethod" is-config="true" duration-ms="1" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pkg1.Class1@704d6e83]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:pkg1.Class1@704d6e83]" name="test3" duration-ms="0" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:pkg1.Class1@704d6e83]" name="afterTest" is-config="true" duration-ms="0" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:pkg1.Class1@704d6e83]" name="afterClass" is-config="true" duration-ms="0" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="AfterSuit()[pri:0, instance:pkg1.Class1@704d6e83]" name="AfterSuit" is-config="true" duration-ms="0" started-at="2023-01-04T22:03:45 IST" finished-at="2023-01-04T22:03:45 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterSuit -->
-      </class> <!-- pkg1.Class1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
