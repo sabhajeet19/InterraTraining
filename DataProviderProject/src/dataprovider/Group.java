@@ -3,7 +3,7 @@ package dataprovider;
 import org.testng.annotations.Test;
 
 public class Group {
-	@Test(groups="smoke")
+	@Test(groups="sanity")
 	public void method1() {
 		System.out.println("This is method1");
 	}
@@ -11,7 +11,7 @@ public class Group {
 	public void method2() {
 		System.out.println("This is method2");
 	}
-	@Test(groups="sanity")
+	@Test(groups="smoke")
 	public void method3() {
 		System.out.println("This is method3");
 	}
